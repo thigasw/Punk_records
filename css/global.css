@@ -1,7 +1,7 @@
 :root {
   --background-primary-color: #044040;
   --background-secondary-color: #d92525;
-  --background-tertiary-color: #591c21;
+  --background-tertiary-color: #162d1a;
 
   --text-primary-color: #8c1f28;
   --text-secondary-color: #f2f2f2;
@@ -14,12 +14,12 @@
 }
 
 body {
-  background-color: var(--background-primary-color);
+  background-color: var(--background-tertiary-color);
 }
 
 h1 {
   font-size: 40px;
-  color: var(--text-primary-color);
+  color: var(--text-secondary-color);
   font-family: "Alata", sans-serif;
   font-weight: bold;
   text-transform: uppercase;

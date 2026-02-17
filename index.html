@@ -18,49 +18,57 @@
   </head>
   <body>
     <main>
-      <section class="login-container">
-        <img src="assets/brain-process.png" alt="Logo do punk records" />
-        <h1>Punk Records</h1>
-        <form action="" id="loginForm">
-          <label for="User">Usuário</label>
-          <br />
-          <input
-            type="text"
-            id="user"
-            placeholder="Digite seu usuário"
-            required
-          />
-          <br />
+      <div class="main-login">
+        <section class="bg_container">
+          <h1>Bem vindo! <br>Entre para estudar com mais praticidade!</h1>
+          <img src="assets/learning-animate.svg" class="image" alt="Estudos">
+        </section>
+      </div>
 
-          <label for="UserPassword">Senha</label>
-          <br />
-          <input
-            type="password"
-            id="password"
-            placeholder="Digite sua senha"
-            required
-          />
-          <br />
-          <small class="error-message" id="error"></small>
-          <br />
-          <a href="#">Esqueci minha senha </a>
-          <br />
-          <button
-            type="submit"
-            class="btn"
-            onclick="
-              logar();
-              return false;
-            "
-          >
-            Entrar
-          </button>
-          <br />
-          <a href="#"
-            >Ainda não tem uma conta? <span>Experimente grátis!</span></a
-          >
-        </form>
-      </section>
+      <div class="login-rigth">
+          <div class="card">
+            <h1>Login</h1>
+            <form action="" id="loginForm">
+              <label for="User">Usuário</label>
+              <br />
+              <input
+                type="text"
+                id="user"
+                placeholder="Digite seu usuário"
+                required
+              />
+              <br />
+
+              <label for="UserPassword">Senha</label>
+              <br />
+              <input
+                type="password"
+                id="password"
+                placeholder="Digite sua senha"
+                required
+              />
+              <br />
+              <small class="error-message" id="error"></small>
+              <br />
+              <a href="#">Esqueci minha senha </a>
+              <br />
+              <button
+                type="submit"
+                class="btn"
+                onclick="
+                  logar();
+                  return false;
+                "
+              >
+                Entrar
+              </button>
+              <br />
+              <a href="#"
+                >Ainda não tem uma conta? <span>Experimente grátis!</span></a
+              >
+            </form>
+          </div>
+      </div>
     </main>
 
     <script src="script/login.js"></script>
