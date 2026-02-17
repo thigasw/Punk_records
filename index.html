@@ -45,7 +45,16 @@
           <br />
           <a href="#">Esqueci minha senha </a>
           <br />
-          <button type="submit" class="btn">Entrar</button>
+          <button
+            type="submit"
+            class="btn"
+            onclick="
+              logar();
+              return false;
+            "
+          >
+            Entrar
+          </button>
           <br />
           <a href="#"
             >Ainda não tem uma conta? <span>Experimente grátis!</span></a
@@ -53,5 +62,7 @@
         </form>
       </section>
     </main>
+
+    <script src="script/login.js"></script>
   </body>
 </html>
